@@ -1,0 +1,51 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "a585c62b6fe5bdde4e10",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"859624e7198cec3baef0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":205.995085995086,\"z\":2001,\"width\":872.7272727272726,\"height\":514.2014742014742,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sheet1.Annual Returns on Investments in\"},{\"queryRef\":\"Sheet1.Column1\"},{\"queryRef\":\"Sheet1.Column3\"},{\"queryRef\":\"Sheet1.Column4\"},{\"queryRef\":\"Sheet1.Column5\"},{\"queryRef\":\"Sheet1.Column6\"},{\"queryRef\":\"Sheet1.Column7\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Annual Returns on Investments in\"},\"Name\":\"Sheet1.Annual Returns on Investments in\",\"NativeReferenceName\":\"Annual Returns on Investments in\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Column1\"},\"Name\":\"Sheet1.Column1\",\"NativeReferenceName\":\"Column1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Column3\"},\"Name\":\"Sheet1.Column3\",\"NativeReferenceName\":\"Column3\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Column4\"},\"Name\":\"Sheet1.Column4\",\"NativeReferenceName\":\"Column4\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Column5\"},\"Name\":\"Sheet1.Column5\",\"NativeReferenceName\":\"Column5\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Column6\"},\"Name\":\"Sheet1.Column6\",\"NativeReferenceName\":\"Column6\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Column7\"},\"Name\":\"Sheet1.Column7\",\"NativeReferenceName\":\"Column7\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 514.20,
+          "width": 872.73,
+          "x": 0.00,
+          "y": 206.00,
+          "z": 2001.00
+        },
+        {
+          "config": "{\"name\":\"af90146308661d5f34c7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20.44226044226044,\"y\":117.93611793611792,\"z\":2000,\"width\":300.3439803439803,\"height\":33.02211302211302,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Prod 09 -10-2024\",\"textStyle\":{\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 33.02,
+          "width": 300.34,
+          "x": 20.44,
+          "y": 117.94,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
